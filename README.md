@@ -22,4 +22,4 @@ Link to your project
 ---
 - Copy the header files for the data structure into the include folder of your project.
 - Copy the `.a` (Static Libray) file to a directory in your project `ex: bin/` (Install feature to be implemented)
-- Link and compile your program with the library name `ex: list, stack etc`
+- Link and compile your program with the library name `ex: list, stack`

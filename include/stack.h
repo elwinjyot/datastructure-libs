@@ -14,6 +14,7 @@ void initStack(struct Stack *);
 void pushStack(struct Stack *, int);
 void popStack(struct Stack *);
 void reverseStack(struct Stack *);
+int getAtStack(struct Stack *, int index);
 void grow(struct Stack *);
 void shrink(struct Stack *);
 void displayStack(struct Stack *stack);
