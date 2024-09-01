@@ -55,6 +55,17 @@ void reverseStack(struct Stack *stack)
   stack->blocks = reversedStack;
 }
 
+int getAtStack(struct Stack *stack, int index)
+{
+  int stackIndex = stack->top - index;
+  if (stackIndex < 0)
+  {
+    return -1;
+  }
+
+  return stack->blocks[stackIndex];
+}
+
 void displayStack(struct Stack *stack)
 {
   if (stack == NULL || stack->top == -1)

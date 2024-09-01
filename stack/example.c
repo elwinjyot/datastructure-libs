@@ -1,4 +1,5 @@
 #include <stack.h>
+#include <stdio.h>
 
 int main()
 {
@@ -8,11 +9,16 @@ int main()
   pushStack(&numbers, 200);
   pushStack(&numbers, 300);
   pushStack(&numbers, 400);
+  pushStack(&numbers, 500);
 
   popStack(&numbers);
   displayStack(&numbers);
+
+  printf("Reversed stack\n");
   reverseStack(&numbers);
   displayStack(&numbers);
+
+  printf("Element at index 0: %d\n", getAtStack(&numbers, 0));
 
   destroyStack(&numbers);
   return 0;
