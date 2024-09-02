@@ -6,7 +6,6 @@ struct Stack
   int top;
   int height;
   int totalHeight;
-  int fixed;
   int *blocks;
 };
 

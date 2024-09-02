@@ -3,7 +3,7 @@ echo "Building"
 if [ ! -d "../build" ]; then
   mkdir "../build"
 fi
-gcc -I../include -o ../build/linkedlist example.c -L../lib/ -llist -lstack
+g++ -I../include -o ../build/linkedlist example.cpp
 
 if [ $? -eq 0 ]; then
   echo -e "Build complete\n"
