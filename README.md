@@ -1,5 +1,5 @@
 # DataStruct Libs
-Easy to use most popular data structures implemented in C language. Library build ready files. 
+Easy to use most popular data structures implemented in C/C++. Library build ready files. 
 
 You can clone and include my data structures code into your projects. Scripts to build each data structure is included in the directories of with the corresponding data structure name
 
